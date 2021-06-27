@@ -1,0 +1,13 @@
+{
+  "name": "nlw6_node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "henzo gomes <henzo.gomes@newm.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
