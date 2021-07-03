@@ -17,3 +17,9 @@ yarn add express-async-errors
 yarn typeorm migration:create -n CreateTags
 yarn typeorm migration:run
 yarn typeorm entity:create -n Tag
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
+yarn typeorm migration:create -n AlterUserAddPassword
+yarn add bcryptjs
+yarn add @types/bcryptjs -D
+yarn typeorm migration:create -n CreateCompliments
